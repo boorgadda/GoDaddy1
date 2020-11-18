@@ -1,3 +1,5 @@
+use dp_stage;
+
 create table dp_stage.emp1(empid int,empname string,salary int,dept string) row format delimited
 fields terminated by '/t' stored as textfile;
 
