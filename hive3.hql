@@ -1,7 +1,5 @@
-use hivetest;
+create table emp2(empid int,empname string,salary int,dept string);
 
-create table hivetest.emp2(empid int,empname string,salary int,dept string);
-
-insert into table hivetest.emp2 values(33, 'vineeth', 24,'delivery');
+insert into table emp2 values(33, 'vineeth', 24,'delivery');
 
 --select * from emp1;
