@@ -1,0 +1,2 @@
+INPUT="s3://piginput1/input/tripdata.csv"
+OUTPUT="s3://pigoutputbucket/pig/pig71/"
